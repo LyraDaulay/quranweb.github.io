@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/earlyaccess/amiri.css);
+.amiri { font-family: 'Amiri', serif; }
+.translation, .tafsir { font-size: 0.9em; text-align: justify; color: black; }
+.translation { color: black !important; }
+.judul {
+    color: black; /* Warna hitam */
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.judul img {
+    width: 30px;
+    margin-right: 10px;
+}
+.deskripsi-surah, .ayat {
+    color: black;
+}
+body {
+    background-color: #fce4ec; /* Warna pink pastel */
+    color: black; /* Warna hitam */
+}
+.footer {
+    background-color: #fff; /* Warna putih */
+    color: #333; /* Warna hitam */
+    padding: 20px 0;
+}
+.qari-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.qari-select {
+    margin-right: 10px;
+}
+.list-group-item {
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+.list-group-item:hover {
+    background-color: #f1f1f1;
+}
+.content {
+    padding: 20px;
+}
+.ayat .list-group {
+    margin-bottom: 10px;
+}
+.ayat .list-group:last-child {
+    margin-bottom: 0;
+}
+.ayat .text-end {
+    text-align: right !important;
+}
+#quran-audio {
+    width: 100%;
+    margin-top: 20px;
+}
